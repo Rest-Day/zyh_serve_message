@@ -1,0 +1,6 @@
+msg/BoxType.idl
+msg/BoxType.msg
+srv/DetectColor.idl
+srv/DetectColor.srv
+srv/DetectColor_Request.msg
+srv/DetectColor_Response.msg

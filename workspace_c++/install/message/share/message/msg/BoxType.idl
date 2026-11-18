@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message/msg/BoxType.msg
+// generated code does not contain a copyright notice
+
+
+module message {
+  module msg {
+    struct BoxType {
+      string color;
+
+      float x;
+
+      float y;
+
+      float w;
+
+      float h;
+
+      float d;
+
+      float area;
+    };
+  };
+};

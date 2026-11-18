@@ -1,0 +1,7 @@
+{
+  "package_name": "message",
+  "non_idl_tuples": [
+    "/home/zhoushan/code/serve_message/workspace_c++/src/message:msg/BoxType.msg",
+    "/home/zhoushan/code/serve_message/workspace_c++/src/message:srv/DetectColor.srv"
+  ]
+}

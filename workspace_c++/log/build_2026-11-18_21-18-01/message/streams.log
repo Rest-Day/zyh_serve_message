@@ -1,0 +1,35 @@
+[0.011s] Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/message -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/message
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.364s] -- The CXX compiler identification is GNU 11.4.0
+[0.577s] -- Detecting C compiler ABI info
+[0.673s] -- Detecting C compiler ABI info - done
+[0.677s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.678s] -- Detecting C compile features
+[0.678s] -- Detecting C compile features - done
+[0.680s] -- Detecting CXX compiler ABI info
+[0.781s] -- Detecting CXX compiler ABI info - done
+[0.785s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.785s] -- Detecting CXX compile features
+[0.786s] -- Detecting CXX compile features - done
+[0.787s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.878s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.661s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.661s]   By not providing "Findstd_msg.cmake" in CMAKE_MODULE_PATH this project has
+[1.661s]   asked CMake to find a package configuration file provided by "std_msg", but
+[1.661s]   CMake did not find one.
+[1.661s] 
+[1.661s]   Could not find a package configuration file provided by "std_msg" with any
+[1.661s]   of the following names:
+[1.661s] 
+[1.661s]     std_msgConfig.cmake
+[1.661s]     std_msg-config.cmake
+[1.661s] 
+[1.661s]   Add the installation prefix of "std_msg" to CMAKE_PREFIX_PATH or set
+[1.661s]   "std_msg_DIR" to a directory containing one of the above files.  If
+[1.661s]   "std_msg" provides a separate development package or SDK, be sure it has
+[1.662s]   been installed.
+[1.662s] 
+[1.662s] [0m
+[1.662s] -- Configuring incomplete, errors occurred!
+[1.662s] See also "/home/zhoushan/code/serve_message/workspace_c++/build/message/CMakeFiles/CMakeOutput.log".
+[1.665s] Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/message' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/message -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/message

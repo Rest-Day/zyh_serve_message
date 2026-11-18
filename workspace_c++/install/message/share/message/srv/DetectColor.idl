@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from message/srv/DetectColor.srv
+// generated code does not contain a copyright notice
+
+#include "message/msg/BoxType.idl"
+
+module message {
+  module srv {
+    struct DetectColor_Request {
+      string color;
+    };
+    struct DetectColor_Response {
+      boolean success;
+
+      string message;
+
+      sequence<message::msg::BoxType> type;
+    };
+  };
+};

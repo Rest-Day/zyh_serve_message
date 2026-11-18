@@ -1,0 +1,7 @@
+string color
+
+---
+
+bool success
+string message
+message/BoxType[] type

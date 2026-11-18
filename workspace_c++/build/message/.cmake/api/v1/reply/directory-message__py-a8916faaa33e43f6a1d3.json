@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "message__py",
+		"source" : "/home/zhoushan/code/serve_message/workspace_c++/build/message/message__py"
+	}
+}

@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/message -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/message
+[0.016s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.850s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.851s]   By not providing "Findstd_msg.cmake" in CMAKE_MODULE_PATH this project has
+[0.851s]   asked CMake to find a package configuration file provided by "std_msg", but
+[0.851s]   CMake did not find one.
+[0.851s] 
+[0.851s]   Could not find a package configuration file provided by "std_msg" with any
+[0.851s]   of the following names:
+[0.851s] 
+[0.851s]     std_msgConfig.cmake
+[0.851s]     std_msg-config.cmake
+[0.851s] 
+[0.851s]   Add the installation prefix of "std_msg" to CMAKE_PREFIX_PATH or set
+[0.851s]   "std_msg_DIR" to a directory containing one of the above files.  If
+[0.851s]   "std_msg" provides a separate development package or SDK, be sure it has
+[0.851s]   been installed.
+[0.851s] 
+[0.851s] [0m
+[0.851s] -- Configuring incomplete, errors occurred!
+[0.851s] See also "/home/zhoushan/code/serve_message/workspace_c++/build/message/CMakeFiles/CMakeOutput.log".
+[0.853s] Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/message' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/message -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/message

@@ -1,0 +1,2 @@
+Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/message -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/message
+Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/message' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/message -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/message

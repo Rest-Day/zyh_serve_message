@@ -1,0 +1,267 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhoushan/code/serve_message/workspace_c++/build/message
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] Built target ament_cmake_python_copy_message
+running egg_info
+creating message.egg-info
+writing message.egg-info/PKG-INFO
+writing dependency_links to message.egg-info/dependency_links.txt
+writing top-level names to message.egg-info/top_level.txt
+writing manifest file 'message.egg-info/SOURCES.txt'
+reading manifest file 'message.egg-info/SOURCES.txt'
+writing manifest file 'message.egg-info/SOURCES.txt'
+[  7%] Built target ament_cmake_python_build_message_egg
+[  7%] Built target message__rs
+[  7%] Built target message__cpp
+[ 12%] [32mBuilding C object CMakeFiles/message__rosidl_generator_c.dir/rosidl_generator_c/message/msg/detail/box_type__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] [32mBuilding C object CMakeFiles/message__rosidl_generator_c.dir/rosidl_generator_c/message/srv/detail/detect_color__functions.c.o[0m
+[ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 22%] [32m[1mLinking C shared library libmessage__rosidl_generator_c.so[0m
+[ 22%] Built target message__rosidl_generator_c
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message/msg/box_type__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message/srv/detect_color__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message/srv/detail/detect_color__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message/msg/detail/box_type__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message/msg/detail/dds_fastrtps/box_type__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message/srv/detail/dds_fastrtps/detect_color__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_c.dir/rosidl_typesupport_c/message/msg/box_type__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_c.dir/rosidl_typesupport_c/message/srv/detect_color__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message/msg/detail/box_type__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message/srv/detail/detect_color__type_support.c.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message/msg/detail/box_type__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message/srv/detail/detect_color__type_support_c.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_c.so[0m
+[ 65%] [32m[1mLinking C shared library libmessage__rosidl_typesupport_introspection_c.so[0m
+[ 67%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_cpp.so[0m
+[ 67%] Built target message__rosidl_typesupport_c
+[ 67%] Built target message__rosidl_typesupport_introspection_c
+[ 67%] Built target message__rosidl_typesupport_cpp
+[ 70%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_introspection_cpp.so[0m
+[ 72%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 75%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] Built target message__rosidl_typesupport_introspection_cpp
+[ 75%] Built target message__rosidl_typesupport_fastrtps_cpp
+[ 75%] Built target message__rosidl_typesupport_fastrtps_c
+[ 75%] Built target message
+[ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 77%] Built target message__py
+[ 80%] [32mBuilding C object CMakeFiles/message__rosidl_generator_py.dir/rosidl_generator_py/message/msg/_box_type_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/message__rosidl_generator_py.dir/rosidl_generator_py/message/srv/_detect_color_s.c.o[0m
+[ 85%] [32m[1mLinking C shared library rosidl_generator_py/message/libmessage__rosidl_generator_py.so[0m
+[ 85%] Built target message__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/message/_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/message/_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/message/_message_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target message__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target message__rosidl_typesupport_introspection_c__pyext
+[100%] Built target message__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/ament_index/resource_index/rosidl_interfaces/message
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__functions.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__functions.c
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__type_support.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__struct.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detect_color.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/box_type.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__type_support.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__functions.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__struct.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__functions.c
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/library_path.sh
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/library_path.dsv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_generator_c.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__rosidl_typesupport_introspection_c.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__type_support.c
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__type_support.c
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__rosidl_typesupport_introspection_c.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_c.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detect_color.hpp
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__type_support.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__struct.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__traits.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__builder.hpp
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/box_type.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__type_support.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__builder.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__traits.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__struct.hpp
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/dds_fastrtps
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/dds_fastrtps
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__type_support.cpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg
+-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__type_support.cpp
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/pythonpath.sh
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/pythonpath.dsv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv/_detect_color_s.c
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv/__init__.py
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv/_detect_color.py
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/__init__.py
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg/__init__.py
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg/_box_type.py
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg/_box_type_s.c
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/libmessage__rosidl_generator_py.so
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message'...
+Compiling '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/__init__.py'...
+Listing '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg'...
+Compiling '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg/__init__.py'...
+Compiling '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg/_box_type.py'...
+Listing '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv'...
+Compiling '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv/__init__.py'...
+Compiling '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv/_detect_color.py'...
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_generator_py.so
+-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_generator_py.so" to ""
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/Cargo.toml
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/build.rs
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/srv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/srv/rmw.rs
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/lib.rs
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/srv.rs
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/msg.rs
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/msg
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/msg/rmw.rs
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/msg/BoxType.idl
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/srv/DetectColor.idl
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/msg/BoxType.msg
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/srv/DetectColor.srv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/srv/DetectColor_Request.msg
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/srv/DetectColor_Response.msg
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/ament_index/resource_index/package_run_dependencies/message
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/ament_index/resource_index/parent_prefix_path/message
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/ament_prefix_path.sh
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/ament_prefix_path.dsv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/path.sh
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/path.dsv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/local_setup.bash
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/local_setup.sh
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/local_setup.zsh
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/local_setup.dsv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/package.dsv
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/ament_index/resource_index/packages/message
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_cExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_cExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_cppExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_pyExport.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/messageConfig.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/messageConfig-version.cmake
+-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/package.xml
