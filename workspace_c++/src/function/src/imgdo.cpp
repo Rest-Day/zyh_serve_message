@@ -17,7 +17,7 @@ class img_do : public rclcpp::Node
         image_pub_ = this->create_publisher<sensor_msgs::msg::Image>
         ("/detect/image_annotated", 10);
         img_ = this->create_subscription<sensor_msgs::msg::Image>("img", 10, std::bind(&img_do::do_do_img, this, _1));
-        server_ = this->create_service<message::srv::DetectColor>("choise_color", std::bind(&img_do::choise, this, _1, _2));
+        server_ = this->create_service<message::srv::DetectColor>("Smash_N_Grab", std::bind(&img_do::choise, this, _1, _2));
     }
     private:
     void do_do_img(const sensor_msgs::msg::Image::SharedPtr msg)
@@ -133,3 +133,13 @@ class img_do : public rclcpp::Node
     rclcpp::Service<message::srv::DetectColor>::SharedPtr server_;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr image_pub_;
 };
+
+
+int main(int argc, char ** argv)
+{
+    rclcpp::init(argc, argv);
+    auto server = std::make_shared<img_do>();
+    rclcpp::spin(server);
+    rclcpp::shutdown();
+    return 0;
+}
