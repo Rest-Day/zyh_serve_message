@@ -1,0 +1,12 @@
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/uninstall.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/function_uninstall.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/imgget.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/imgdo.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/colorselect.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/test.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/edit_cache.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/rebuild_cache.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/list_install_components.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/install.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/install/local.dir
+/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/install/strip.dir

@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/function': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/function -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/function
+[0.114s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.245s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.366s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.370s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.382s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.481s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.629s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.667s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.410s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[4.410s]   By not providing "Findmessage.cmake" in CMAKE_MODULE_PATH this project has
+[4.410s]   asked CMake to find a package configuration file provided by "message", but
+[4.410s]   CMake did not find one.
+[4.410s] 
+[4.410s]   Could not find a package configuration file provided by "message" with any
+[4.410s]   of the following names:
+[4.410s] 
+[4.410s]     messageConfig.cmake
+[4.410s]     message-config.cmake
+[4.410s] 
+[4.410s]   Add the installation prefix of "message" to CMAKE_PREFIX_PATH or set
+[4.410s]   "message_DIR" to a directory containing one of the above files.  If
+[4.410s]   "message" provides a separate development package or SDK, be sure it has
+[4.410s]   been installed.
+[4.410s] 
+[4.410s] [0m
+[4.411s] -- Configuring incomplete, errors occurred!
+[4.411s] See also "/home/zhoushan/code/serve_message/workspace_c++/build/function/CMakeFiles/CMakeOutput.log".
+[4.416s] Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/function' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/function -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/function

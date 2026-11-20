@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b0454fe957f021127643.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "function",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "colorselect::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colorselect-6ad54539b06d2c03bfdf.json",
+					"name" : "colorselect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "function_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-function_uninstall-ea67df0a9a53f5e6b3b7.json",
+					"name" : "function_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imgdo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imgdo-8e31f212fa0eb9101852.json",
+					"name" : "imgdo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imgget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imgget-0ac09ae3ede3fe00fcc2.json",
+					"name" : "imgget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-731aa0f634081a23e0e0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhoushan/code/serve_message/workspace_c++/build/function",
+		"source" : "/home/zhoushan/code/serve_message/workspace_c++/src/function"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

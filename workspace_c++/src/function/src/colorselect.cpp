@@ -1,8 +1,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include "message/srv/detect_color.hpp"
 #include "message/msg/box_type.hpp"
-#include <opencv2/opencv.hpp>
-#include <cv_bridge/cv_bridge.h>
 #include <vector>
 #include <chrono>
 #include <iostream>

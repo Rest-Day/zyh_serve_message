@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (-) JobUnselected: {'identifier': 'message'}
+[0.000352] (function) JobQueued: {'identifier': 'function', 'dependencies': OrderedDict([('message', '/home/zhoushan/code/serve_message/workspace_c++/install/message')])}
+[0.000589] (function) JobStarted: {'identifier': 'function'}
+[0.052366] (function) JobProgress: {'identifier': 'function', 'progress': 'cmake'}
+[0.052933] (function) Command: {'cmd': ['/usr/bin/cmake', '/home/zhoushan/code/serve_message/workspace_c++/src/function', '-DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/function'], 'cwd': '/home/zhoushan/code/serve_message/workspace_c++/build/function', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zhoushan'), ('GIT_ASKPASS', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhoushan'), ('OLDPWD', '/home/zhoushan/code/serve_message'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-10af537a-8e04-42cd-8cc0-2eb06cb2e39c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhoushan'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/489_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/WSL/:/mnt/e/DSH/resources/runtime/cli/bin:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/21237/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da34879033.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zhoushan/code/serve_message/workspace_c++/build/function'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble')]), 'shell': False}
+[0.063252] (function) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099756] (-) TimerEvent: {}
+[0.136867] (function) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199888] (-) TimerEvent: {}
+[0.232020] (function) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.233361] (function) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.237091] (function) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.242432] (function) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.249286] (function) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.267449] (function) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.268099] (function) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300130] (-) TimerEvent: {}
+[0.400601] (-) TimerEvent: {}
+[0.500976] (-) TimerEvent: {}
+[0.601701] (-) TimerEvent: {}
+[0.702049] (-) TimerEvent: {}
+[0.802392] (-) TimerEvent: {}
+[0.902733] (-) TimerEvent: {}
+[1.003115] (-) TimerEvent: {}
+[1.103453] (-) TimerEvent: {}
+[1.203831] (-) TimerEvent: {}
+[1.304172] (-) TimerEvent: {}
+[1.404521] (-) TimerEvent: {}
+[1.504862] (-) TimerEvent: {}
+[1.605219] (-) TimerEvent: {}
+[1.705569] (-) TimerEvent: {}
+[1.805917] (-) TimerEvent: {}
+[1.906272] (-) TimerEvent: {}
+[2.006619] (-) TimerEvent: {}
+[2.107002] (-) TimerEvent: {}
+[2.207530] (-) TimerEvent: {}
+[2.307978] (-) TimerEvent: {}
+[2.408429] (-) TimerEvent: {}
+[2.508811] (-) TimerEvent: {}
+[2.609194] (-) TimerEvent: {}
+[2.709530] (-) TimerEvent: {}
+[2.809891] (-) TimerEvent: {}
+[2.910290] (-) TimerEvent: {}
+[3.010773] (-) TimerEvent: {}
+[3.111191] (-) TimerEvent: {}
+[3.211552] (-) TimerEvent: {}
+[3.311932] (-) TimerEvent: {}
+[3.412332] (-) TimerEvent: {}
+[3.431340] (function) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.462954] (function) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.479380] (function) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.487378] (function) StdoutLine: {'line': b'-- Found message: 0.0.0 (/home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake)\n'}
+[3.512446] (-) TimerEvent: {}
+[3.545871] (function) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.568785] (function) StdoutLine: {'line': b'-- Generating done\n'}
+[3.574226] (function) StdoutLine: {'line': b'-- Build files have been written to: /home/zhoushan/code/serve_message/workspace_c++/build/function\n'}
+[3.580410] (function) CommandEnded: {'returncode': 0}
+[3.581057] (function) JobProgress: {'identifier': 'function', 'progress': 'build'}
+[3.582261] (function) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhoushan/code/serve_message/workspace_c++/build/function', '--', '-j32', '-l32'], 'cwd': '/home/zhoushan/code/serve_message/workspace_c++/build/function', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zhoushan'), ('GIT_ASKPASS', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhoushan'), ('OLDPWD', '/home/zhoushan/code/serve_message'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-10af537a-8e04-42cd-8cc0-2eb06cb2e39c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhoushan'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/489_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/WSL/:/mnt/e/DSH/resources/runtime/cli/bin:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/21237/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da34879033.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zhoushan/code/serve_message/workspace_c++/build/function'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble')]), 'shell': False}
+[3.612620] (-) TimerEvent: {}
+[3.619717] (function) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/imgdo.dir/src/imgdo.cpp.o\x1b[0m\n'}
+[3.620237] (function) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/imgget.dir/src/imgget.cpp.o\x1b[0m\n'}
+[3.620389] (function) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/colorselect.dir/src/colorselect.cpp.o\x1b[0m\n'}
+[3.712787] (-) TimerEvent: {}
+[3.813233] (-) TimerEvent: {}
+[3.913659] (-) TimerEvent: {}
+[4.014064] (-) TimerEvent: {}
+[4.114496] (-) TimerEvent: {}
+[4.214962] (-) TimerEvent: {}
+[4.315395] (-) TimerEvent: {}
+[4.415875] (-) TimerEvent: {}
+[4.516267] (-) TimerEvent: {}
+[4.616765] (-) TimerEvent: {}
+[4.717275] (-) TimerEvent: {}
+[4.817853] (-) TimerEvent: {}
+[4.918397] (-) TimerEvent: {}
+[5.018872] (-) TimerEvent: {}
+[5.119333] (-) TimerEvent: {}
+[5.219717] (-) TimerEvent: {}
+[5.320090] (-) TimerEvent: {}
+[5.420466] (-) TimerEvent: {}
+[5.520873] (-) TimerEvent: {}
+[5.621267] (-) TimerEvent: {}
+[5.716265] (function) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhoushan/code/serve_message/workspace_c++/src/function/src/colorselect.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<message::srv::DetectColor>::SharedFuture let_me_see_see::send_see_see(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.716533] (function) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhoushan/code/serve_message/workspace_c++/src/function/src/colorselect.cpp:33:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = message::srv::DetectColor; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<message::srv::DetectColor_Response_<std::allocator<void> > > >]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.716622] (function) StderrLine: {'line': b'   33 |         return see_see->async_send_request(geigei\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.716664] (function) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.716701] (function) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.716734] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.716762] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.716790] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.716819] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.716847] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.716875] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.716903] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.716931] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.716958] (function) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zhoushan/code/serve_message/workspace_c++/src/function/src/colorselect.cpp:1\x1b[m\x1b[K:\n'}
+[5.716987] (function) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.717014] (function) StderrLine: {'line': b'  415 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K SharedFuture() {return this->future.share();}\n'}
+[5.717042] (function) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.721365] (-) TimerEvent: {}
+[5.821712] (-) TimerEvent: {}
+[5.922249] (-) TimerEvent: {}
+[6.022811] (-) TimerEvent: {}
+[6.123326] (-) TimerEvent: {}
+[6.223783] (-) TimerEvent: {}
+[6.324164] (-) TimerEvent: {}
+[6.424577] (-) TimerEvent: {}
+[6.525060] (-) TimerEvent: {}
+[6.584083] (function) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable colorselect\x1b[0m\n'}
+[6.625201] (-) TimerEvent: {}
+[6.725627] (-) TimerEvent: {}
+[6.814596] (function) StdoutLine: {'line': b'[ 66%] Built target colorselect\n'}
+[6.825804] (-) TimerEvent: {}
+[6.926234] (-) TimerEvent: {}
+[7.026646] (-) TimerEvent: {}
+[7.127176] (-) TimerEvent: {}
+[7.227542] (-) TimerEvent: {}
+[7.327911] (-) TimerEvent: {}
+[7.428282] (-) TimerEvent: {}
+[7.528660] (-) TimerEvent: {}
+[7.629030] (-) TimerEvent: {}
+[7.729430] (-) TimerEvent: {}
+[7.829782] (-) TimerEvent: {}
+[7.930172] (-) TimerEvent: {}
+[8.030508] (-) TimerEvent: {}
+[8.109239] (function) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable imgget\x1b[0m\n'}
+[8.130668] (-) TimerEvent: {}
+[8.231044] (-) TimerEvent: {}
+[8.331572] (-) TimerEvent: {}
+[8.432020] (-) TimerEvent: {}
+[8.532409] (-) TimerEvent: {}
+[8.632841] (-) TimerEvent: {}
+[8.733342] (-) TimerEvent: {}
+[8.824840] (function) StdoutLine: {'line': b'[ 83%] Built target imgget\n'}
+[8.833460] (-) TimerEvent: {}
+[8.933834] (-) TimerEvent: {}
+[9.034276] (-) TimerEvent: {}
+[9.134615] (-) TimerEvent: {}
+[9.234962] (-) TimerEvent: {}
+[9.335323] (-) TimerEvent: {}
+[9.435686] (-) TimerEvent: {}
+[9.536176] (-) TimerEvent: {}
+[9.636627] (-) TimerEvent: {}
+[9.736989] (-) TimerEvent: {}
+[9.837355] (-) TimerEvent: {}
+[9.937785] (-) TimerEvent: {}
+[10.038279] (-) TimerEvent: {}
+[10.138719] (-) TimerEvent: {}
+[10.239083] (-) TimerEvent: {}
+[10.339613] (-) TimerEvent: {}
+[10.440056] (-) TimerEvent: {}
+[10.540464] (-) TimerEvent: {}
+[10.641027] (-) TimerEvent: {}
+[10.698609] (function) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imgdo\x1b[0m\n'}
+[10.741153] (-) TimerEvent: {}
+[10.841511] (-) TimerEvent: {}
+[10.941945] (-) TimerEvent: {}
+[11.042405] (-) TimerEvent: {}
+[11.142747] (-) TimerEvent: {}
+[11.185184] (function) StdoutLine: {'line': b'[100%] Built target imgdo\n'}
+[11.194695] (function) CommandEnded: {'returncode': 0}
+[11.195793] (function) JobProgress: {'identifier': 'function', 'progress': 'install'}
+[11.202367] (function) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhoushan/code/serve_message/workspace_c++/build/function'], 'cwd': '/home/zhoushan/code/serve_message/workspace_c++/build/function', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zhoushan'), ('GIT_ASKPASS', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhoushan'), ('OLDPWD', '/home/zhoushan/code/serve_message'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-10af537a-8e04-42cd-8cc0-2eb06cb2e39c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhoushan'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/489_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/WSL/:/mnt/e/DSH/resources/runtime/cli/bin:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/21237/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da34879033.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zhoushan/code/serve_message/workspace_c++/build/function'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble')]), 'shell': False}
+[11.207467] (function) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.208238] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgget\n'}
+[11.209598] (function) StdoutLine: {'line': b'-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgget" to ""\n'}
+[11.209843] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgdo\n'}
+[11.213697] (function) StdoutLine: {'line': b'-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgdo" to ""\n'}
+[11.213805] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/colorselect\n'}
+[11.214652] (function) StdoutLine: {'line': b'-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/colorselect" to ""\n'}
+[11.215600] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/package_run_dependencies/function\n'}
+[11.216136] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/parent_prefix_path/function\n'}
+[11.216662] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/ament_prefix_path.sh\n'}
+[11.216861] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/ament_prefix_path.dsv\n'}
+[11.217060] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/path.sh\n'}
+[11.217312] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/path.dsv\n'}
+[11.217466] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.bash\n'}
+[11.217639] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.sh\n'}
+[11.217852] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.zsh\n'}
+[11.217925] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.dsv\n'}
+[11.217967] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/package.dsv\n'}
+[11.218336] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/packages/function\n'}
+[11.218825] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/cmake/functionConfig.cmake\n'}
+[11.219065] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/cmake/functionConfig-version.cmake\n'}
+[11.219337] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/package.xml\n'}
+[11.221145] (function) CommandEnded: {'returncode': 0}
+[11.235850] (function) JobEnded: {'identifier': 'function', 'rc': 0}
+[11.236950] (-) EventReactorShutdown: {}

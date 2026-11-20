@@ -1,0 +1,70 @@
+[0.055s] Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/function': AMENT_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble LD_LIBRARY_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/function -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/function
+[0.063s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.232s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.233s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.237s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.267s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.268s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.463s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.479s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.487s] -- Found message: 0.0.0 (/home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake)
+[3.545s] -- Configuring done
+[3.568s] -- Generating done
+[3.574s] -- Build files have been written to: /home/zhoushan/code/serve_message/workspace_c++/build/function
+[3.580s] Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/function' returned '0': AMENT_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble LD_LIBRARY_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zhoushan/code/serve_message/workspace_c++/src/function -DCMAKE_INSTALL_PREFIX=/home/zhoushan/code/serve_message/workspace_c++/install/function
+[3.582s] Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/function': AMENT_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble LD_LIBRARY_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhoushan/code/serve_message/workspace_c++/build/function -- -j32 -l32
+[3.619s] [ 16%] [32mBuilding CXX object CMakeFiles/imgdo.dir/src/imgdo.cpp.o[0m
+[3.620s] [ 33%] [32mBuilding CXX object CMakeFiles/imgget.dir/src/imgget.cpp.o[0m
+[3.620s] [ 50%] [32mBuilding CXX object CMakeFiles/colorselect.dir/src/colorselect.cpp.o[0m
+[5.716s] [01m[K/home/zhoushan/code/serve_message/workspace_c++/src/function/src/colorselect.cpp:[m[K In member function ‘[01m[Krclcpp::Client<message::srv::DetectColor>::SharedFuture let_me_see_see::send_see_see(std::string)[m[K’:
+[5.716s] [01m[K/home/zhoushan/code/serve_message/workspace_c++/src/function/src/colorselect.cpp:33:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = message::srv::DetectColor; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<message::srv::DetectColor_Response_<std::allocator<void> > > >][m[K’ is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.716s]    33 |         return see_see->async_send_request(geigei[01;35m[K)[m[K;
+[5.716s]       |                                                  [01;35m[K^[m[K
+[5.716s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.716s]                  from [01m[K/home/zhoushan/code/serve_message/workspace_c++/src/function/src/colorselect.cpp:1[m[K:
+[5.716s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.716s]   415 |     [01;36m[Koperator[m[K SharedFuture() {return this->future.share();}
+[5.716s]       |     [01;36m[K^~~~~~~~[m[K
+[6.584s] [ 66%] [32m[1mLinking CXX executable colorselect[0m
+[6.814s] [ 66%] Built target colorselect
+[8.109s] [ 83%] [32m[1mLinking CXX executable imgget[0m
+[8.824s] [ 83%] Built target imgget
+[10.698s] [100%] [32m[1mLinking CXX executable imgdo[0m
+[11.185s] [100%] Built target imgdo
+[11.194s] Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/function' returned '0': AMENT_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble LD_LIBRARY_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhoushan/code/serve_message/workspace_c++/build/function -- -j32 -l32
+[11.202s] Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/function': AMENT_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble LD_LIBRARY_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zhoushan/code/serve_message/workspace_c++/build/function
+[11.207s] -- Install configuration: ""
+[11.208s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgget
+[11.209s] -- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgget" to ""
+[11.209s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgdo
+[11.213s] -- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgdo" to ""
+[11.213s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/colorselect
+[11.214s] -- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/colorselect" to ""
+[11.215s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/package_run_dependencies/function
+[11.216s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/parent_prefix_path/function
+[11.216s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/ament_prefix_path.sh
+[11.216s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/ament_prefix_path.dsv
+[11.217s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/path.sh
+[11.217s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/path.dsv
+[11.217s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.bash
+[11.217s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.sh
+[11.217s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.zsh
+[11.217s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.dsv
+[11.217s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/package.dsv
+[11.218s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/packages/function
+[11.218s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/cmake/functionConfig.cmake
+[11.219s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/cmake/functionConfig-version.cmake
+[11.219s] -- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/package.xml
+[11.221s] Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/function' returned '0': AMENT_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble LD_LIBRARY_PATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zhoushan/code/serve_message/workspace_c++/build/function

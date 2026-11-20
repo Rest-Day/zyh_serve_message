@@ -4,6 +4,7 @@
 #include <chrono>
 #include <opencv2/opencv.hpp>
 #include <cv_bridge/cv_bridge.h>
+#include <filesystem>
 
 using namespace std::chrono_literals;
 
@@ -12,7 +13,7 @@ class myImggetter : public rclcpp::Node
     public:
     myImggetter() : Node("imgget")
     {
-        path = "./*.png";
+        path = "/home/zhoushan/code/serve_message/sample.png";
         img = cv::imread(path);
         publisher_ = this->create_publisher<sensor_msgs::msg::Image>("img",10);
         timer_ = this->create_wall_timer(500ms, std::bind(&myImggetter::send_img, this));

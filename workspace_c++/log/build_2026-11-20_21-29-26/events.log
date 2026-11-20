@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.000418] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.000572] (function) JobQueued: {'identifier': 'function', 'dependencies': OrderedDict([('message', '/home/zhoushan/code/serve_message/workspace_c++/install/message')])}
+[0.000631] (message) JobStarted: {'identifier': 'message'}
+[0.016559] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.018561] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.018790] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhoushan/code/serve_message/workspace_c++/build/message', '--', '-j32', '-l32'], 'cwd': '/home/zhoushan/code/serve_message/workspace_c++/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zhoushan'), ('GIT_ASKPASS', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhoushan'), ('OLDPWD', '/home/zhoushan/code/serve_message'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-10af537a-8e04-42cd-8cc0-2eb06cb2e39c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhoushan'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/489_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/WSL/:/mnt/e/DSH/resources/runtime/cli/bin:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/21237/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da34879033.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/function:/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zhoushan/code/serve_message/workspace_c++/build/message'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/function:/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099327] (-) TimerEvent: {}
+[0.115291] (message) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199483] (-) TimerEvent: {}
+[0.265823] (message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.270698] (message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.275583] (message) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299625] (-) TimerEvent: {}
+[0.399987] (-) TimerEvent: {}
+[0.422876] (message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500136] (-) TimerEvent: {}
+[0.600536] (-) TimerEvent: {}
+[0.681734] (message) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700729] (-) TimerEvent: {}
+[0.801346] (-) TimerEvent: {}
+[0.841072] (message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901473] (-) TimerEvent: {}
+[1.001911] (-) TimerEvent: {}
+[1.026336] (message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.043832] (message) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.063458] (message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.063641] (message) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.063684] (message) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.102185] (-) TimerEvent: {}
+[1.137338] (message) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.202385] (-) TimerEvent: {}
+[1.206112] (message) StdoutLine: {'line': b'-- Generating done\n'}
+[1.218434] (message) StdoutLine: {'line': b'-- Build files have been written to: /home/zhoushan/code/serve_message/workspace_c++/build/message\n'}
+[1.247127] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_generator_c\x1b[0m\n'}
+[1.254299] (message) StdoutLine: {'line': b'[  5%] Built target message__cpp\n'}
+[1.254672] (message) StdoutLine: {'line': b'[  5%] Built target message__rs\n'}
+[1.255859] (message) StdoutLine: {'line': b'[ 15%] Built target message__rosidl_generator_c\n'}
+[1.268454] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_c\x1b[0m\n'}
+[1.268871] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.269008] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.269400] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.269492] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.269557] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.271796] (message) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_message\n'}
+[1.283311] (message) StdoutLine: {'line': b'[ 25%] Built target message__rosidl_typesupport_c\n'}
+[1.284095] (message) StdoutLine: {'line': b'[ 50%] Built target message__rosidl_typesupport_introspection_c\n'}
+[1.284379] (message) StdoutLine: {'line': b'[ 50%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[1.284429] (message) StdoutLine: {'line': b'[ 55%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[1.284470] (message) StdoutLine: {'line': b'[ 65%] Built target message__rosidl_typesupport_cpp\n'}
+[1.284592] (message) StdoutLine: {'line': b'[ 75%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[1.302517] (-) TimerEvent: {}
+[1.304175] (message) StdoutLine: {'line': b'[ 75%] Built target message\n'}
+[1.326584] (message) StdoutLine: {'line': b'[ 77%] Built target message__py\n'}
+[1.338501] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_generator_py\x1b[0m\n'}
+[1.353531] (message) StdoutLine: {'line': b'[ 85%] Built target message__rosidl_generator_py\n'}
+[1.365085] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.365407] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.365463] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target message__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.378369] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.378606] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_c__pyext\n'}
+[1.378698] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_introspection_c__pyext\n'}
+[1.402653] (-) TimerEvent: {}
+[1.444206] (message) StdoutLine: {'line': b'running egg_info\n'}
+[1.444861] (message) StdoutLine: {'line': b'writing message.egg-info/PKG-INFO\n'}
+[1.445549] (message) StdoutLine: {'line': b'writing dependency_links to message.egg-info/dependency_links.txt\n'}
+[1.445817] (message) StdoutLine: {'line': b'writing top-level names to message.egg-info/top_level.txt\n'}
+[1.449358] (message) StdoutLine: {'line': b"reading manifest file 'message.egg-info/SOURCES.txt'\n"}
+[1.450249] (message) StdoutLine: {'line': b"writing manifest file 'message.egg-info/SOURCES.txt'\n"}
+[1.478924] (message) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_message_egg\n'}
+[1.490854] (message) CommandEnded: {'returncode': 0}
+[1.492551] (message) JobProgress: {'identifier': 'message', 'progress': 'install'}
+[1.500678] (message) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhoushan/code/serve_message/workspace_c++/build/message'], 'cwd': '/home/zhoushan/code/serve_message/workspace_c++/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zhoushan'), ('GIT_ASKPASS', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhoushan'), ('OLDPWD', '/home/zhoushan/code/serve_message'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-10af537a-8e04-42cd-8cc0-2eb06cb2e39c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhoushan'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/489_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/WSL/:/mnt/e/DSH/resources/runtime/cli/bin:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/21237/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da34879033.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/function:/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zhoushan/code/serve_message/workspace_c++/build/message'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/function:/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[1.502754] (-) TimerEvent: {}
+[1.506524] (message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.506922] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/ament_index/resource_index/rosidl_interfaces/message\n'}
+[1.507085] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message\n'}
+[1.507319] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv\n'}
+[1.507475] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail\n'}
+[1.507660] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__functions.h\n'}
+[1.507829] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__functions.c\n'}
+[1.507876] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__type_support.h\n'}
+[1.507918] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__struct.h\n'}
+[1.507953] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detect_color.h\n'}
+[1.507987] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg\n'}
+[1.508018] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.508048] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/box_type.h\n'}
+[1.508079] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail\n'}
+[1.508109] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__type_support.h\n'}
+[1.508138] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__functions.h\n'}
+[1.508172] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__struct.h\n'}
+[1.508202] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__functions.c\n'}
+[1.508233] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/library_path.sh\n'}
+[1.508262] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/library_path.dsv\n'}
+[1.508801] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_generator_c.so\n'}
+[1.509133] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message\n'}
+[1.509571] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv\n'}
+[1.509730] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail\n'}
+[1.509778] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__rosidl_typesupport_fastrtps_c.h\n'}
+[1.509816] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg\n'}
+[1.509851] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail\n'}
+[1.509884] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__rosidl_typesupport_fastrtps_c.h\n'}
+[1.509922] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.510389] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[1.510882] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message\n'}
+[1.511328] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv\n'}
+[1.511506] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail\n'}
+[1.511556] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__rosidl_typesupport_introspection_c.h\n'}
+[1.511596] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__type_support.c\n'}
+[1.511635] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg\n'}
+[1.511671] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail\n'}
+[1.511704] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__type_support.c\n'}
+[1.511736] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__rosidl_typesupport_introspection_c.h\n'}
+[1.511776] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.511896] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so\n'}
+[1.512479] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_c.so\n'}
+[1.512627] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message\n'}
+[1.512697] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv\n'}
+[1.512849] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detect_color.hpp\n'}
+[1.512963] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail\n'}
+[1.513138] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__type_support.hpp\n'}
+[1.513223] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__struct.hpp\n'}
+[1.513409] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__traits.hpp\n'}
+[1.513651] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__builder.hpp\n'}
+[1.513841] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg\n'}
+[1.513986] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/box_type.hpp\n'}
+[1.514128] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.514233] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail\n'}
+[1.514516] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__type_support.hpp\n'}
+[1.514723] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__builder.hpp\n'}
+[1.514774] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__traits.hpp\n'}
+[1.514885] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__struct.hpp\n'}
+[1.514932] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message\n'}
+[1.514970] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv\n'}
+[1.515004] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail\n'}
+[1.515129] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/dds_fastrtps\n'}
+[1.515177] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.515301] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg\n'}
+[1.515429] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail\n'}
+[1.515500] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/dds_fastrtps\n'}
+[1.515646] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.515694] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.515730] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.515980] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message\n'}
+[1.516079] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv\n'}
+[1.516283] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail\n'}
+[1.516406] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__type_support.cpp\n'}
+[1.516549] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/srv/detail/detect_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.516709] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg\n'}
+[1.516861] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail\n'}
+[1.517047] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.517292] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/include/message/message/msg/detail/box_type__type_support.cpp\n'}
+[1.517393] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[1.517439] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_typesupport_cpp.so\n'}
+[1.517478] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/pythonpath.sh\n'}
+[1.517520] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/pythonpath.dsv\n'}
+[1.517555] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info\n'}
+[1.517587] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.517619] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.517656] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.517691] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.517725] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message\n'}
+[1.517756] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv\n'}
+[1.517785] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv/_detect_color_s.c\n'}
+[1.517825] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv/__init__.py\n'}
+[1.517857] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv/_detect_color.py\n'}
+[1.517887] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.517918] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/__init__.py\n'}
+[1.517948] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.517981] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg\n'}
+[1.518012] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg/__init__.py\n'}
+[1.518042] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg/_box_type.py\n'}
+[1.518071] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg/_box_type_s.c\n'}
+[1.518103] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.518145] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.518179] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_c.c\n'}
+[1.518211] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/libmessage__rosidl_generator_py.so\n'}
+[1.518240] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.545319] (message) StdoutLine: {'line': b"Listing '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message'...\n"}
+[1.545531] (message) StdoutLine: {'line': b"Compiling '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/__init__.py'...\n"}
+[1.545626] (message) StdoutLine: {'line': b"Listing '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/msg'...\n"}
+[1.545704] (message) StdoutLine: {'line': b"Listing '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/srv'...\n"}
+[1.549887] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.550410] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.550989] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.551960] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/lib/libmessage__rosidl_generator_py.so\n'}
+[1.552378] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust\n'}
+[1.552855] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/Cargo.toml\n'}
+[1.553121] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/build.rs\n'}
+[1.553385] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src\n'}
+[1.553471] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/srv\n'}
+[1.553515] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/srv/rmw.rs\n'}
+[1.553556] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/lib.rs\n'}
+[1.553592] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/srv.rs\n'}
+[1.553625] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/msg.rs\n'}
+[1.553655] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/msg\n'}
+[1.553770] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/rust/src/msg/rmw.rs\n'}
+[1.553819] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/msg/BoxType.idl\n'}
+[1.553856] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/srv/DetectColor.idl\n'}
+[1.553892] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/msg/BoxType.msg\n'}
+[1.554039] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/srv/DetectColor.srv\n'}
+[1.554196] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/srv/DetectColor_Request.msg\n'}
+[1.554244] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/srv/DetectColor_Response.msg\n'}
+[1.554282] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/ament_index/resource_index/package_run_dependencies/message\n'}
+[1.554324] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/ament_index/resource_index/parent_prefix_path/message\n'}
+[1.554429] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/ament_prefix_path.sh\n'}
+[1.554499] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/ament_prefix_path.dsv\n'}
+[1.554691] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/path.sh\n'}
+[1.555273] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/environment/path.dsv\n'}
+[1.555385] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/local_setup.bash\n'}
+[1.555563] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/local_setup.sh\n'}
+[1.555759] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/local_setup.zsh\n'}
+[1.555938] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/local_setup.dsv\n'}
+[1.555987] (message) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/package.dsv\n'}
+[1.556024] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/ament_index/resource_index/packages/message\n'}
+[1.556269] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_cExport.cmake\n'}
+[1.556445] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.556782] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.556935] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.557376] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.557476] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.557792] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_cExport.cmake\n'}
+[1.557974] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.558302] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_cppExport.cmake\n'}
+[1.558788] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.559113] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.559323] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.559471] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.559908] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_cppExport.cmake\n'}
+[1.560048] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/message__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.560454] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_pyExport.cmake\n'}
+[1.560818] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/export_message__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.560936] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/rosidl_cmake-extras.cmake\n'}
+[1.561155] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.561432] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.561720] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.561818] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.561856] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.561891] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.561926] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[1.561959] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/messageConfig.cmake\n'}
+[1.561991] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/cmake/messageConfig-version.cmake\n'}
+[1.562024] (message) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/message/share/message/package.xml\n'}
+[1.564279] (message) CommandEnded: {'returncode': 0}
+[1.595744] (message) JobEnded: {'identifier': 'message', 'rc': 0}
+[1.596947] (function) JobStarted: {'identifier': 'function'}
+[1.602876] (-) TimerEvent: {}
+[1.663571] (function) JobProgress: {'identifier': 'function', 'progress': 'cmake'}
+[1.664713] (function) JobProgress: {'identifier': 'function', 'progress': 'build'}
+[1.664993] (function) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhoushan/code/serve_message/workspace_c++/build/function', '--', '-j32', '-l32'], 'cwd': '/home/zhoushan/code/serve_message/workspace_c++/build/function', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zhoushan'), ('GIT_ASKPASS', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhoushan'), ('OLDPWD', '/home/zhoushan/code/serve_message'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-10af537a-8e04-42cd-8cc0-2eb06cb2e39c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhoushan'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/489_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/WSL/:/mnt/e/DSH/resources/runtime/cli/bin:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/21237/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da34879033.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/function:/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zhoushan/code/serve_message/workspace_c++/build/function'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message:/home/zhoushan/code/serve_message/workspace_c++/install/function:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[1.703023] (-) TimerEvent: {}
+[1.728563] (function) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target colorselect\x1b[0m\n'}
+[1.729551] (function) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imgdo\x1b[0m\n'}
+[1.729683] (function) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imgget\x1b[0m\n'}
+[1.748566] (function) StdoutLine: {'line': b'[ 66%] Built target colorselect\n'}
+[1.748826] (function) StdoutLine: {'line': b'[ 66%] Built target imgdo\n'}
+[1.748963] (function) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/imgget.dir/src/imgget.cpp.o\x1b[0m\n'}
+[1.803249] (-) TimerEvent: {}
+[1.903659] (-) TimerEvent: {}
+[2.004051] (-) TimerEvent: {}
+[2.104701] (-) TimerEvent: {}
+[2.205465] (-) TimerEvent: {}
+[2.306134] (-) TimerEvent: {}
+[2.406741] (-) TimerEvent: {}
+[2.507451] (-) TimerEvent: {}
+[2.608265] (-) TimerEvent: {}
+[2.708839] (-) TimerEvent: {}
+[2.809404] (-) TimerEvent: {}
+[2.909997] (-) TimerEvent: {}
+[3.010820] (-) TimerEvent: {}
+[3.111781] (-) TimerEvent: {}
+[3.212185] (-) TimerEvent: {}
+[3.312703] (-) TimerEvent: {}
+[3.413165] (-) TimerEvent: {}
+[3.513582] (-) TimerEvent: {}
+[3.614347] (-) TimerEvent: {}
+[3.714855] (-) TimerEvent: {}
+[3.815267] (-) TimerEvent: {}
+[3.915682] (-) TimerEvent: {}
+[4.016179] (-) TimerEvent: {}
+[4.116849] (-) TimerEvent: {}
+[4.217230] (-) TimerEvent: {}
+[4.317582] (-) TimerEvent: {}
+[4.417964] (-) TimerEvent: {}
+[4.518440] (-) TimerEvent: {}
+[4.619250] (-) TimerEvent: {}
+[4.719890] (-) TimerEvent: {}
+[4.820388] (-) TimerEvent: {}
+[4.920802] (-) TimerEvent: {}
+[5.021181] (-) TimerEvent: {}
+[5.121722] (-) TimerEvent: {}
+[5.222539] (-) TimerEvent: {}
+[5.323049] (-) TimerEvent: {}
+[5.423780] (-) TimerEvent: {}
+[5.524491] (-) TimerEvent: {}
+[5.625248] (-) TimerEvent: {}
+[5.725788] (-) TimerEvent: {}
+[5.826487] (-) TimerEvent: {}
+[5.927319] (-) TimerEvent: {}
+[6.027815] (-) TimerEvent: {}
+[6.128490] (-) TimerEvent: {}
+[6.229000] (-) TimerEvent: {}
+[6.329547] (-) TimerEvent: {}
+[6.429966] (-) TimerEvent: {}
+[6.530749] (-) TimerEvent: {}
+[6.631589] (-) TimerEvent: {}
+[6.732219] (-) TimerEvent: {}
+[6.832647] (-) TimerEvent: {}
+[6.933081] (-) TimerEvent: {}
+[7.033539] (-) TimerEvent: {}
+[7.134177] (-) TimerEvent: {}
+[7.234705] (-) TimerEvent: {}
+[7.335260] (-) TimerEvent: {}
+[7.435810] (-) TimerEvent: {}
+[7.530675] (function) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imgget\x1b[0m\n'}
+[7.535901] (-) TimerEvent: {}
+[7.636294] (-) TimerEvent: {}
+[7.736717] (-) TimerEvent: {}
+[7.837277] (-) TimerEvent: {}
+[7.937720] (-) TimerEvent: {}
+[8.038431] (-) TimerEvent: {}
+[8.139268] (-) TimerEvent: {}
+[8.210525] (function) StdoutLine: {'line': b'[100%] Built target imgget\n'}
+[8.222119] (function) CommandEnded: {'returncode': 0}
+[8.224045] (function) JobProgress: {'identifier': 'function', 'progress': 'install'}
+[8.224587] (function) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhoushan/code/serve_message/workspace_c++/build/function'], 'cwd': '/home/zhoushan/code/serve_message/workspace_c++/build/function', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zhoushan'), ('GIT_ASKPASS', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhoushan'), ('OLDPWD', '/home/zhoushan/code/serve_message'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-10af537a-8e04-42cd-8cc0-2eb06cb2e39c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhoushan'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/489_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhoushan/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/WSL/:/mnt/e/DSH/resources/runtime/cli/bin:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/21237/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/21237/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/21237/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da34879033.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/function:/home/zhoushan/code/serve_message/workspace_c++/install/message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zhoushan/code/serve_message/workspace_c++/build/function'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zhoushan/code/serve_message/workspace_c++/install/message:/home/zhoushan/code/serve_message/workspace_c++/install/function:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[8.233610] (function) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.234100] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgget\n'}
+[8.235169] (function) StdoutLine: {'line': b'-- Set runtime path of "/home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgget" to ""\n'}
+[8.235401] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/imgdo\n'}
+[8.235625] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/lib/function/colorselect\n'}
+[8.235878] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/package_run_dependencies/function\n'}
+[8.236054] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/parent_prefix_path/function\n'}
+[8.236350] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/ament_prefix_path.sh\n'}
+[8.236486] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/ament_prefix_path.dsv\n'}
+[8.236701] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/path.sh\n'}
+[8.236841] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/environment/path.dsv\n'}
+[8.236900] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.bash\n'}
+[8.236941] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.sh\n'}
+[8.236975] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.zsh\n'}
+[8.237074] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/local_setup.dsv\n'}
+[8.237451] (function) StdoutLine: {'line': b'-- Installing: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/package.dsv\n'}
+[8.237557] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/ament_index/resource_index/packages/function\n'}
+[8.237638] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/cmake/functionConfig.cmake\n'}
+[8.237697] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/cmake/functionConfig-version.cmake\n'}
+[8.237743] (function) StdoutLine: {'line': b'-- Up-to-date: /home/zhoushan/code/serve_message/workspace_c++/install/function/share/function/package.xml\n'}
+[8.239273] (-) TimerEvent: {}
+[8.239979] (function) CommandEnded: {'returncode': 0}
+[8.251901] (function) JobEnded: {'identifier': 'function', 'rc': 0}
+[8.253163] (-) EventReactorShutdown: {}
