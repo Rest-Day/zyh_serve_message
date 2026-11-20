@@ -105,6 +105,11 @@ pub struct DetectColor_Response {
 
     // This member is not documented.
     #[allow(missing_docs)]
+    pub getcolor: rosidl_runtime_rs::String,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
     pub success: bool,
 
 

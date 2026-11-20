@@ -121,6 +121,13 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
+  // member: getcolor
+  {
+    out << "getcolor: ";
+    rosidl_generator_traits::value_to_yaml(msg.getcolor, out);
+    out << ", ";
+  }
+
   // member: success
   {
     out << "success: ";
@@ -158,6 +165,16 @@ inline void to_block_style_yaml(
   const DetectColor_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
+  // member: getcolor
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "getcolor: ";
+    rosidl_generator_traits::value_to_yaml(msg.getcolor, out);
+    out << "\n";
+  }
+
   // member: success
   {
     if (indentation > 0) {

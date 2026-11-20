@@ -173,6 +173,21 @@ bool message__srv__detect_color__response__convert_from_py(PyObject * _pymsg, vo
     assert(strncmp("message.srv._detect_color.DetectColor_Response", full_classname_dest, 46) == 0);
   }
   message__srv__DetectColor_Response * ros_message = _ros_message;
+  {  // getcolor
+    PyObject * field = PyObject_GetAttrString(_pymsg, "getcolor");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->getcolor, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
+    Py_DECREF(field);
+  }
   {  // success
     PyObject * field = PyObject_GetAttrString(_pymsg, "success");
     if (!field) {
@@ -252,6 +267,23 @@ PyObject * message__srv__detect_color__response__convert_to_py(void * raw_ros_me
     }
   }
   message__srv__DetectColor_Response * ros_message = (message__srv__DetectColor_Response *)raw_ros_message;
+  {  // getcolor
+    PyObject * field = NULL;
+    field = PyUnicode_DecodeUTF8(
+      ros_message->getcolor.data,
+      strlen(ros_message->getcolor.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "getcolor", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // success
     PyObject * field = NULL;
     field = PyBool_FromLong(ros_message->success ? 1 : 0);

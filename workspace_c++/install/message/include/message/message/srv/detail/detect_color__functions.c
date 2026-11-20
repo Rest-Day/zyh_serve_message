@@ -251,6 +251,7 @@ message__srv__DetectColor_Request__Sequence__copy(
 
 
 // Include directives for member types
+// Member `getcolor`
 // Member `message`
 // already included above
 // #include "rosidl_runtime_c/string_functions.h"
@@ -261,6 +262,11 @@ bool
 message__srv__DetectColor_Response__init(message__srv__DetectColor_Response * msg)
 {
   if (!msg) {
+    return false;
+  }
+  // getcolor
+  if (!rosidl_runtime_c__String__init(&msg->getcolor)) {
+    message__srv__DetectColor_Response__fini(msg);
     return false;
   }
   // success
@@ -283,6 +289,8 @@ message__srv__DetectColor_Response__fini(message__srv__DetectColor_Response * ms
   if (!msg) {
     return;
   }
+  // getcolor
+  rosidl_runtime_c__String__fini(&msg->getcolor);
   // success
   // message
   rosidl_runtime_c__String__fini(&msg->message);
@@ -294,6 +302,12 @@ bool
 message__srv__DetectColor_Response__are_equal(const message__srv__DetectColor_Response * lhs, const message__srv__DetectColor_Response * rhs)
 {
   if (!lhs || !rhs) {
+    return false;
+  }
+  // getcolor
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->getcolor), &(rhs->getcolor)))
+  {
     return false;
   }
   // success
@@ -321,6 +335,12 @@ message__srv__DetectColor_Response__copy(
   message__srv__DetectColor_Response * output)
 {
   if (!input || !output) {
+    return false;
+  }
+  // getcolor
+  if (!rosidl_runtime_c__String__copy(
+      &(input->getcolor), &(output->getcolor)))
+  {
     return false;
   }
   // success

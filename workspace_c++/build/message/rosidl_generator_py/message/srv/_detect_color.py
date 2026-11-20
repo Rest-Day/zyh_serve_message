@@ -182,18 +182,21 @@ class DetectColor_Response(metaclass=Metaclass_DetectColor_Response):
     """Message class 'DetectColor_Response'."""
 
     __slots__ = [
+        '_getcolor',
         '_success',
         '_message',
         '_type',
     ]
 
     _fields_and_field_types = {
+        'getcolor': 'string',
         'success': 'boolean',
         'message': 'string',
         'type': 'sequence<message/BoxType>',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.NamespacedType(['message', 'msg'], 'BoxType')),  # noqa: E501
@@ -203,6 +206,7 @@ class DetectColor_Response(metaclass=Metaclass_DetectColor_Response):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.getcolor = kwargs.get('getcolor', str())
         self.success = kwargs.get('success', bool())
         self.message = kwargs.get('message', str())
         self.type = kwargs.get('type', [])
@@ -236,6 +240,8 @@ class DetectColor_Response(metaclass=Metaclass_DetectColor_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.getcolor != other.getcolor:
+            return False
         if self.success != other.success:
             return False
         if self.message != other.message:
@@ -248,6 +254,19 @@ class DetectColor_Response(metaclass=Metaclass_DetectColor_Response):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def getcolor(self):
+        """Message field 'getcolor'."""
+        return self._getcolor
+
+    @getcolor.setter
+    def getcolor(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, str), \
+                "The 'getcolor' field must be of type 'str'"
+        self._getcolor = value
 
     @builtins.property
     def success(self):

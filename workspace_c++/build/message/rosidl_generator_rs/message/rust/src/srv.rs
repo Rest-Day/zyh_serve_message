@@ -62,6 +62,11 @@ pub struct DetectColor_Response {
 
     // This member is not documented.
     #[allow(missing_docs)]
+    pub getcolor: std::string::String,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
     pub success: bool,
 
 
@@ -90,6 +95,7 @@ impl rosidl_runtime_rs::Message for DetectColor_Response {
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        getcolor: msg.getcolor.as_str().into(),
         success: msg.success,
         message: msg.message.as_str().into(),
         type_: msg.type_
@@ -98,6 +104,7 @@ impl rosidl_runtime_rs::Message for DetectColor_Response {
           .collect(),
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        getcolor: msg.getcolor.as_str().into(),
       success: msg.success,
         message: msg.message.as_str().into(),
         type_: msg.type_
@@ -110,6 +117,7 @@ impl rosidl_runtime_rs::Message for DetectColor_Response {
 
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
+      getcolor: msg.getcolor.to_string(),
       success: msg.success,
       message: msg.message.to_string(),
       type_: msg.type_

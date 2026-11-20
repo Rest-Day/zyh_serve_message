@@ -98,13 +98,29 @@ private:
 class Init_DetectColor_Response_success
 {
 public:
-  Init_DetectColor_Response_success()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  explicit Init_DetectColor_Response_success(::message::srv::DetectColor_Response & msg)
+  : msg_(msg)
   {}
   Init_DetectColor_Response_message success(::message::srv::DetectColor_Response::_success_type arg)
   {
     msg_.success = std::move(arg);
     return Init_DetectColor_Response_message(msg_);
+  }
+
+private:
+  ::message::srv::DetectColor_Response msg_;
+};
+
+class Init_DetectColor_Response_getcolor
+{
+public:
+  Init_DetectColor_Response_getcolor()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_DetectColor_Response_success getcolor(::message::srv::DetectColor_Response::_getcolor_type arg)
+  {
+    msg_.getcolor = std::move(arg);
+    return Init_DetectColor_Response_success(msg_);
   }
 
 private:
@@ -122,7 +138,7 @@ template<>
 inline
 auto build<::message::srv::DetectColor_Response>()
 {
-  return message::srv::builder::Init_DetectColor_Response_success();
+  return message::srv::builder::Init_DetectColor_Response_getcolor();
 }
 
 }  // namespace message

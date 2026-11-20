@@ -41,6 +41,7 @@ typedef struct message__srv__DetectColor_Request__Sequence
 // Constants defined in the message
 
 // Include directives for member types
+// Member 'getcolor'
 // Member 'message'
 // already included above
 // #include "rosidl_runtime_c/string.h"
@@ -50,6 +51,7 @@ typedef struct message__srv__DetectColor_Request__Sequence
 /// Struct defined in srv/DetectColor in the package message.
 typedef struct message__srv__DetectColor_Response
 {
+  rosidl_runtime_c__String getcolor;
   bool success;
   rosidl_runtime_c__String message;
   message__msg__BoxType__Sequence type;

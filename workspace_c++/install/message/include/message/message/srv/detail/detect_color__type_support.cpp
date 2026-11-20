@@ -201,7 +201,24 @@ void resize_function__DetectColor_Response__type(void * untyped_member, size_t s
   member->resize(size);
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember DetectColor_Response_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember DetectColor_Response_message_member_array[4] = {
+  {
+    "getcolor",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(message::srv::DetectColor_Response, getcolor),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
   {
     "success",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
@@ -258,7 +275,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember DetectColor_R
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers DetectColor_Response_message_members = {
   "message::srv",  // message namespace
   "DetectColor_Response",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(message::srv::DetectColor_Response),
   DetectColor_Response_message_member_array,  // message members
   DetectColor_Response_init_function,  // function to initialize message memory (memory has to be allocated)

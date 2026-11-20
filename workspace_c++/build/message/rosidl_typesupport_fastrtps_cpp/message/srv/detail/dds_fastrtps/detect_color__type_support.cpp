@@ -271,6 +271,8 @@ cdr_serialize(
   const message::srv::DetectColor_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Member: getcolor
+  cdr << ros_message.getcolor;
   // Member: success
   cdr << (ros_message.success ? true : false);
   // Member: message
@@ -294,6 +296,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   message::srv::DetectColor_Response & ros_message)
 {
+  // Member: getcolor
+  cdr >> ros_message.getcolor;
+
   // Member: success
   {
     uint8_t tmp;
@@ -342,6 +347,10 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
+  // Member: getcolor
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.getcolor.size() + 1);
   // Member: success
   {
     size_t item_size = sizeof(ros_message.success);
@@ -388,6 +397,19 @@ max_serialized_size_DetectColor_Response(
   full_bounded = true;
   is_plain = true;
 
+
+  // Member: getcolor
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
 
   // Member: success
   {

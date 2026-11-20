@@ -10,6 +10,8 @@ module message {
       string color;
     };
     struct DetectColor_Response {
+      string getcolor;
+
       boolean success;
 
       string message;

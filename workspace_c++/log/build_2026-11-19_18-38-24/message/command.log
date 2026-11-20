@@ -1,0 +1,4 @@
+Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhoushan/code/serve_message/workspace_c++/build/message -- -j32 -l32
+Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhoushan/code/serve_message/workspace_c++/build/message -- -j32 -l32
+Invoking command in '/home/zhoushan/code/serve_message/workspace_c++/build/message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhoushan/code/serve_message/workspace_c++/build/message
+Invoked command in '/home/zhoushan/code/serve_message/workspace_c++/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhoushan/code/serve_message/workspace_c++/build/message

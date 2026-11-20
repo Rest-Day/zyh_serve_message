@@ -157,23 +157,29 @@ struct DetectColor_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
+      this->getcolor = "";
       this->success = false;
       this->message = "";
     }
   }
 
   explicit DetectColor_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : message(_alloc)
+  : getcolor(_alloc),
+    message(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
+      this->getcolor = "";
       this->success = false;
       this->message = "";
     }
   }
 
   // field types and members
+  using _getcolor_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _getcolor_type getcolor;
   using _success_type =
     bool;
   _success_type success;
@@ -185,6 +191,12 @@ struct DetectColor_Response_
   _type_type type;
 
   // setters for named parameter idiom
+  Type & set__getcolor(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->getcolor = _arg;
+    return *this;
+  }
   Type & set__success(
     const bool & _arg)
   {
@@ -246,6 +258,9 @@ struct DetectColor_Response_
   // comparison operators
   bool operator==(const DetectColor_Response_ & other) const
   {
+    if (this->getcolor != other.getcolor) {
+      return false;
+    }
     if (this->success != other.success) {
       return false;
     }

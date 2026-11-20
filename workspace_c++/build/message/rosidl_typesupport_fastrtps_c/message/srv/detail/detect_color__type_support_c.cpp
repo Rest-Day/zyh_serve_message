@@ -254,9 +254,9 @@ extern "C"
 
 #include "message/msg/detail/box_type__functions.h"  // type
 // already included above
-// #include "rosidl_runtime_c/string.h"  // message
+// #include "rosidl_runtime_c/string.h"  // getcolor, message
 // already included above
-// #include "rosidl_runtime_c/string_functions.h"  // message
+// #include "rosidl_runtime_c/string_functions.h"  // getcolor, message
 
 // forward declare type support functions
 size_t get_serialized_size_message__msg__BoxType(
@@ -283,6 +283,20 @@ static bool _DetectColor_Response__cdr_serialize(
     return false;
   }
   const _DetectColor_Response__ros_msg_type * ros_message = static_cast<const _DetectColor_Response__ros_msg_type *>(untyped_ros_message);
+  // Field name: getcolor
+  {
+    const rosidl_runtime_c__String * str = &ros_message->getcolor;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
   // Field name: success
   {
     cdr << (ros_message->success ? true : false);
@@ -333,6 +347,22 @@ static bool _DetectColor_Response__cdr_deserialize(
     return false;
   }
   _DetectColor_Response__ros_msg_type * ros_message = static_cast<_DetectColor_Response__ros_msg_type *>(untyped_ros_message);
+  // Field name: getcolor
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->getcolor.data) {
+      rosidl_runtime_c__String__init(&ros_message->getcolor);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->getcolor,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'getcolor'\n");
+      return false;
+    }
+  }
+
   // Field name: success
   {
     uint8_t tmp;
@@ -410,6 +440,10 @@ size_t get_serialized_size_message__srv__DetectColor_Response(
   (void)padding;
   (void)wchar_size;
 
+  // field.name getcolor
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->getcolor.size + 1);
   // field.name success
   {
     size_t item_size = sizeof(ros_message->success);
@@ -461,6 +495,18 @@ size_t max_serialized_size_message__srv__DetectColor_Response(
   full_bounded = true;
   is_plain = true;
 
+  // member: getcolor
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
   // member: success
   {
     size_t array_size = 1;
